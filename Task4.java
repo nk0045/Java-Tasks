@@ -1,17 +1,22 @@
-package jhyfgd;
-import java.util.*;
-public class Task4 
-{
+package NestedLoops;
+
+public class Task4 {
 
 	public static void main(String[] args) 
 	{
-		Scanner sc = new Scanner(System.in);
-		double kms;
-		double miles;
-	    System.out.print("Enter the value of kilometers : ");
-	    kms = sc.nextDouble();
-	    miles = kms * 0.63;
-	    System.out.print("The value in Miles = "+miles);
+		int i=1;
+		
+		while(i<=5)
+		{
+			int j=1;
+			while(j<=5)
+			{
+				System.out.print("*");
+				j++;
+			}
+			i++;
+			System.out.println();
+		}
 
 	}
 

@@ -1,13 +1,19 @@
-package jhyfgd;
-import java.util.*;
+package NestedLoops;
+
 public class Task2 {
 
 	public static void main(String[] args) 
 	{
-		Scanner sc = new Scanner(System.in);
-		double a = sc.nextDouble();
-		double b = Math.sqrt(a);
-		System.out.println("The square root of the number is :"+b);
+		 for(int i=1;i<=5;i++)
+    	 {
+    		 for(int j=1;j<=i;j++)
+    		 {
+    			 System.out.print("*");
+    		 }
+    		 System.out.println();
+    	 
+    	 }
+
 	}
 
 }

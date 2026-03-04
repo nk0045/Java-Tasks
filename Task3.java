@@ -1,14 +1,18 @@
-package jhyfgd;
-import java.util.*;
-public class Task3 
-{
+package NestedLoops;
+
+public class Task3 {
 
 	public static void main(String[] args) 
 	{
-		Scanner sc = new Scanner(System.in);
-		float base = sc.nextFloat();
-		float height = sc.nextFloat();
-		System.out.println("The area of the Triangle = "+(0.5*base*height));
+		for(int i=1;i<=5;i++)
+   	   {
+   		 for(int j=5;j>=i;j--)
+   		 {
+   			 System.out.print("*");
+   		 }
+   		 System.out.println();
+   	 
+   	   }
 
 	}
 
